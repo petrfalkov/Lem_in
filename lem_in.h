@@ -14,15 +14,20 @@
 # define LEM_IN_H
 
 # include <stdlib.h>
-# include <fcntl.h>
-# include <sys/stat.h>
-# include <sys/types.h>
-# include <sys/uio.h>
 # include <stdio.h>
 # include <unistd.h>
 # include "libft/ft_printf.h"
 
+typedef struct		s_room {
+	char 			*name;
+	int 			coord_x;
+	int 			coord_y;
+	struct s_room	*next;
+}					t_room;
+
 typedef struct		s_lem_in {
+	t_room			*rooms;
+	char 			**temp_room;
 	int				room_start;
 	int				room_end;
 	int				num_rooms;
