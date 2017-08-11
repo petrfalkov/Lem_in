@@ -25,11 +25,19 @@ typedef struct		s_room {
 	struct s_room	*next;
 }					t_room;
 
+typedef struct 		s_link {
+	char 			*link[2];
+	int 			used;
+	struct s_link	*next;
+}					t_link;
+
 typedef struct		s_lem_in {
 	t_room			*rooms;
+	t_link 			*links;
 	char 			**temp_room;
-	int				room_start;
-	int				room_end;
+	char 			**temp_link;
+	char			*room_start;
+	char			*room_end;
 	int				num_rooms;
 	int				num_ants;
 	int				**ways;
