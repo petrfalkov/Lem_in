@@ -47,17 +47,20 @@ static int		print_with_n(t_list **str, int *i, char **line, char **row)
 		(*line) = ft_strnew(i[0] + ft_strlen((char*)(*str)->content));
 		(*line) = ft_strcpy(*line, (char*)(*str)->content);
 		(*line) = ft_strncat(*line, *row, i[0]);
-		ft_memdel(&(*str)->content);
+		if (ft_strlen((char*)(*str)->content) != 0)
+			ft_memdel(&(*str)->content);
 		return (1);
 	}
 	(*line) = ft_strnew(i[0] + ft_strlen((char*)(*str)->content));
 	(*line) = ft_strcpy(*line, (char*)(*str)->content);
 	(*line) = ft_strncat(*line, *row, i[0]);
-	ft_memdel(&(*str)->content);
+	if (ft_strlen((char*)(*str)->content) != 0)
+		ft_memdel(&(*str)->content);
 	((*str)->content) = ft_strnew(i[1] - i[0] + 1);
 	((*str)->content) = ft_strncpy((char*)(*str)->content, *row +
 	(ptr - *row + 1), (i[1] - i[0] - 1));
-	ft_strdel(&(*row));
+	if (ft_strlen(*row) != 0)
+		ft_strdel(&(*row));
 	return (1);
 }
 
@@ -65,34 +68,37 @@ static int		ret_one(char **line, char *row, int *i, t_list **str)
 {
 	(*line) = ft_strnew(i[1] + ft_strlen((*str)->content));
 	(*line) = ft_strncat(ft_strcpy(*line, (*str)->content), row, i[1]);
-	ft_memdel(&(*str)->content);
-	ft_strdel(&row);
+	if (ft_strlen((*str)->content) != 0)
+		ft_memdel(&(*str)->content);
+	if (ft_strlen(row) != 0)
+		ft_strdel(&row);
 	return (1);
 }
 
 static int		read_function(t_list **str, char **line, int *i, int fd)
 {
 	char	buf[BUFF_SIZE + 1];
-	char	*ptr;
+	//char	*ptr;
 	char	*row;
 
 	row = ft_strnew(0);
 	buf[BUFF_SIZE] = '\0';
 	while (((i[2] = read(fd, buf, BUFF_SIZE)) >= 0) && (i[1] += i[2]) >= 0)
 	{
-		ptr = row;
+		//ptr = row;
 		row = ft_strjoin(row, buf);
-		ft_strdel(&ptr);
+		//ft_strdel(&ptr);
 		if (ft_strchr(row, 10) != NULL && i[1] > 0)
 			return (print_with_n(&(*str), i, line, &row));
-		else if (i[2] == 0 && i[1] == 0 && ((*str)->content == NULL ||
+		if (i[2] == 0 && i[1] == 0 && ((*str)->content == NULL ||
 			ft_strlen((*str)->content) == 0))
 		{
 			((*str)->content != NULL) ? free((*str)->content) : 0;
-			ft_strdel(&row);
+			if (ft_strlen(row) != 0)
+				ft_strdel(&row);
 			return (0);
 		}
-		else if (i[2] < BUFF_SIZE)
+		if (i[2] < BUFF_SIZE)
 			return (ret_one(line, row, i, str));
 	}
 	return (0);
@@ -121,7 +127,8 @@ int				get_next_line(const int fd, char **line)
 		row = str->content;
 		str->content = ft_strnew(ft_strlen(ptr + 1));
 		str->content = ft_strcpy((char*)str->content, ptr + 1);
-		ft_strdel(&row);
+		if (ft_strlen(row) != 0)
+			ft_strdel(&row);
 		return (1);
 	}
 	return (read_function(&str, &(*line), i, fd));
