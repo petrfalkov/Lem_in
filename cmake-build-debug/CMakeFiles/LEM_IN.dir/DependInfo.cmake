@@ -4,29 +4,30 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/suroc1/here/lem_in.c" "C:/Users/suroc1/here/cmake-build-debug/CMakeFiles/LEM_IN.dir/lem_in.c.obj"
-  "C:/Users/suroc1/here/libft/ft_atoi.c" "C:/Users/suroc1/here/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_atoi.c.obj"
-  "C:/Users/suroc1/here/libft/ft_isalnum.c" "C:/Users/suroc1/here/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_isalnum.c.obj"
-  "C:/Users/suroc1/here/libft/ft_isdigit.c" "C:/Users/suroc1/here/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_isdigit.c.obj"
-  "C:/Users/suroc1/here/libft/ft_lstadd.c" "C:/Users/suroc1/here/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_lstadd.c.obj"
-  "C:/Users/suroc1/here/libft/ft_memdel.c" "C:/Users/suroc1/here/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_memdel.c.obj"
-  "C:/Users/suroc1/here/libft/ft_putchar.c" "C:/Users/suroc1/here/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_putchar.c.obj"
-  "C:/Users/suroc1/here/libft/ft_putstr.c" "C:/Users/suroc1/here/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_putstr.c.obj"
-  "C:/Users/suroc1/here/libft/ft_strchr.c" "C:/Users/suroc1/here/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strchr.c.obj"
-  "C:/Users/suroc1/here/libft/ft_strcmp.c" "C:/Users/suroc1/here/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strcmp.c.obj"
-  "C:/Users/suroc1/here/libft/ft_strcpy.c" "C:/Users/suroc1/here/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strcpy.c.obj"
-  "C:/Users/suroc1/here/libft/ft_strdel.c" "C:/Users/suroc1/here/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strdel.c.obj"
-  "C:/Users/suroc1/here/libft/ft_strequ.c" "C:/Users/suroc1/here/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strequ.c.obj"
-  "C:/Users/suroc1/here/libft/ft_strjoin.c" "C:/Users/suroc1/here/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strjoin.c.obj"
-  "C:/Users/suroc1/here/libft/ft_strlen.c" "C:/Users/suroc1/here/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strlen.c.obj"
-  "C:/Users/suroc1/here/libft/ft_strncat.c" "C:/Users/suroc1/here/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strncat.c.obj"
-  "C:/Users/suroc1/here/libft/ft_strncpy.c" "C:/Users/suroc1/here/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strncpy.c.obj"
-  "C:/Users/suroc1/here/libft/ft_strnequ.c" "C:/Users/suroc1/here/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strnequ.c.obj"
-  "C:/Users/suroc1/here/libft/ft_strnew.c" "C:/Users/suroc1/here/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strnew.c.obj"
-  "C:/Users/suroc1/here/libft/ft_strsplit.c" "C:/Users/suroc1/here/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strsplit.c.obj"
-  "C:/Users/suroc1/here/libft/get_next_line.c" "C:/Users/suroc1/here/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/get_next_line.c.obj"
+  "/nfs/2016/i/ichubare/Lem_in/lem_in.c" "/nfs/2016/i/ichubare/Lem_in/cmake-build-debug/CMakeFiles/LEM_IN.dir/lem_in.c.o"
+  "/nfs/2016/i/ichubare/Lem_in/libft/ft_atoi.c" "/nfs/2016/i/ichubare/Lem_in/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_atoi.c.o"
+  "/nfs/2016/i/ichubare/Lem_in/libft/ft_isalnum.c" "/nfs/2016/i/ichubare/Lem_in/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_isalnum.c.o"
+  "/nfs/2016/i/ichubare/Lem_in/libft/ft_isdigit.c" "/nfs/2016/i/ichubare/Lem_in/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_isdigit.c.o"
+  "/nfs/2016/i/ichubare/Lem_in/libft/ft_lstadd.c" "/nfs/2016/i/ichubare/Lem_in/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_lstadd.c.o"
+  "/nfs/2016/i/ichubare/Lem_in/libft/ft_memdel.c" "/nfs/2016/i/ichubare/Lem_in/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_memdel.c.o"
+  "/nfs/2016/i/ichubare/Lem_in/libft/ft_putchar.c" "/nfs/2016/i/ichubare/Lem_in/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_putchar.c.o"
+  "/nfs/2016/i/ichubare/Lem_in/libft/ft_putstr.c" "/nfs/2016/i/ichubare/Lem_in/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_putstr.c.o"
+  "/nfs/2016/i/ichubare/Lem_in/libft/ft_strcat.c" "/nfs/2016/i/ichubare/Lem_in/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strcat.c.o"
+  "/nfs/2016/i/ichubare/Lem_in/libft/ft_strchr.c" "/nfs/2016/i/ichubare/Lem_in/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strchr.c.o"
+  "/nfs/2016/i/ichubare/Lem_in/libft/ft_strcmp.c" "/nfs/2016/i/ichubare/Lem_in/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strcmp.c.o"
+  "/nfs/2016/i/ichubare/Lem_in/libft/ft_strcpy.c" "/nfs/2016/i/ichubare/Lem_in/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strcpy.c.o"
+  "/nfs/2016/i/ichubare/Lem_in/libft/ft_strdel.c" "/nfs/2016/i/ichubare/Lem_in/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strdel.c.o"
+  "/nfs/2016/i/ichubare/Lem_in/libft/ft_strequ.c" "/nfs/2016/i/ichubare/Lem_in/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strequ.c.o"
+  "/nfs/2016/i/ichubare/Lem_in/libft/ft_strjoin.c" "/nfs/2016/i/ichubare/Lem_in/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strjoin.c.o"
+  "/nfs/2016/i/ichubare/Lem_in/libft/ft_strlen.c" "/nfs/2016/i/ichubare/Lem_in/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strlen.c.o"
+  "/nfs/2016/i/ichubare/Lem_in/libft/ft_strncat.c" "/nfs/2016/i/ichubare/Lem_in/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strncat.c.o"
+  "/nfs/2016/i/ichubare/Lem_in/libft/ft_strncpy.c" "/nfs/2016/i/ichubare/Lem_in/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strncpy.c.o"
+  "/nfs/2016/i/ichubare/Lem_in/libft/ft_strnequ.c" "/nfs/2016/i/ichubare/Lem_in/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strnequ.c.o"
+  "/nfs/2016/i/ichubare/Lem_in/libft/ft_strnew.c" "/nfs/2016/i/ichubare/Lem_in/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strnew.c.o"
+  "/nfs/2016/i/ichubare/Lem_in/libft/ft_strsplit.c" "/nfs/2016/i/ichubare/Lem_in/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/ft_strsplit.c.o"
+  "/nfs/2016/i/ichubare/Lem_in/libft/get_next_line.c" "/nfs/2016/i/ichubare/Lem_in/cmake-build-debug/CMakeFiles/LEM_IN.dir/libft/get_next_line.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

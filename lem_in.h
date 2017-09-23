@@ -42,12 +42,13 @@ typedef struct			s_way
 
 typedef struct		s_lem_in {
 	t_room			*rooms;
+	char 			*output;
 	int 			**links;
 	t_way			*ways;
 	char 			**temp_room;
 	char 			**temp_link;
-	char			*room_start;
-	char			*room_end;
+	int				room_start;
+	int				room_end;
 	int 			flag_rooms;
 	int				num_rooms;
 	int				num_ants;
@@ -55,9 +56,11 @@ typedef struct		s_lem_in {
 	int 			*used_rooms; //is_visited
 	int 			*path; //way
 	int 			*checked; //visited
+	int 			*finished_ants;
 	int 			found_start;
 	int 			found_end;
 	int 			found_link;
+	int 			iter;
 }					t_lem_in;
 
 void				depth_first_search(t_lem_in *lem_in);

@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/suroc1/here/lem_in.c
+/nfs/2016/i/ichubare/Lem_in/lem_in.c
 stdio.h
 -
 stdlib.h
 -
 lem_in.h
-C:/Users/suroc1/here/lem_in.h
+/nfs/2016/i/ichubare/Lem_in/lem_in.h
 
-C:/Users/suroc1/here/lem_in.h
+/nfs/2016/i/ichubare/Lem_in/lem_in.h
 stdlib.h
 -
 stdio.h
@@ -22,93 +22,97 @@ stdio.h
 unistd.h
 -
 libft/ft_printf.h
-C:/Users/suroc1/here/libft/ft_printf.h
+/nfs/2016/i/ichubare/Lem_in/libft/ft_printf.h
 
-C:/Users/suroc1/here/libft/ft_atoi.c
+/nfs/2016/i/ichubare/Lem_in/libft/ft_atoi.c
 
-C:/Users/suroc1/here/libft/ft_isalnum.c
+/nfs/2016/i/ichubare/Lem_in/libft/ft_isalnum.c
 
-C:/Users/suroc1/here/libft/ft_isdigit.c
+/nfs/2016/i/ichubare/Lem_in/libft/ft_isdigit.c
 
-C:/Users/suroc1/here/libft/ft_lstadd.c
+/nfs/2016/i/ichubare/Lem_in/libft/ft_lstadd.c
 libft.h
-C:/Users/suroc1/here/libft/libft.h
+/nfs/2016/i/ichubare/Lem_in/libft/libft.h
 
-C:/Users/suroc1/here/libft/ft_memdel.c
+/nfs/2016/i/ichubare/Lem_in/libft/ft_memdel.c
 libft.h
-C:/Users/suroc1/here/libft/libft.h
+/nfs/2016/i/ichubare/Lem_in/libft/libft.h
 
-C:/Users/suroc1/here/libft/ft_printf.h
+/nfs/2016/i/ichubare/Lem_in/libft/ft_printf.h
 stdarg.h
 -
 libft.h
-C:/Users/suroc1/here/libft/libft.h
+/nfs/2016/i/ichubare/Lem_in/libft/libft.h
 stdint.h
 -
 
-C:/Users/suroc1/here/libft/ft_putchar.c
+/nfs/2016/i/ichubare/Lem_in/libft/ft_putchar.c
 libft.h
-C:/Users/suroc1/here/libft/libft.h
+/nfs/2016/i/ichubare/Lem_in/libft/libft.h
 
-C:/Users/suroc1/here/libft/ft_putstr.c
+/nfs/2016/i/ichubare/Lem_in/libft/ft_putstr.c
 libft.h
-C:/Users/suroc1/here/libft/libft.h
+/nfs/2016/i/ichubare/Lem_in/libft/libft.h
 
-C:/Users/suroc1/here/libft/ft_strchr.c
+/nfs/2016/i/ichubare/Lem_in/libft/ft_strcat.c
 libft.h
-C:/Users/suroc1/here/libft/libft.h
+/nfs/2016/i/ichubare/Lem_in/libft/libft.h
 
-C:/Users/suroc1/here/libft/ft_strcmp.c
-
-C:/Users/suroc1/here/libft/ft_strcpy.c
+/nfs/2016/i/ichubare/Lem_in/libft/ft_strchr.c
 libft.h
-C:/Users/suroc1/here/libft/libft.h
+/nfs/2016/i/ichubare/Lem_in/libft/libft.h
 
-C:/Users/suroc1/here/libft/ft_strdel.c
+/nfs/2016/i/ichubare/Lem_in/libft/ft_strcmp.c
+
+/nfs/2016/i/ichubare/Lem_in/libft/ft_strcpy.c
 libft.h
-C:/Users/suroc1/here/libft/libft.h
+/nfs/2016/i/ichubare/Lem_in/libft/libft.h
 
-C:/Users/suroc1/here/libft/ft_strequ.c
+/nfs/2016/i/ichubare/Lem_in/libft/ft_strdel.c
 libft.h
-C:/Users/suroc1/here/libft/libft.h
+/nfs/2016/i/ichubare/Lem_in/libft/libft.h
 
-C:/Users/suroc1/here/libft/ft_strjoin.c
+/nfs/2016/i/ichubare/Lem_in/libft/ft_strequ.c
 libft.h
-C:/Users/suroc1/here/libft/libft.h
+/nfs/2016/i/ichubare/Lem_in/libft/libft.h
 
-C:/Users/suroc1/here/libft/ft_strlen.c
+/nfs/2016/i/ichubare/Lem_in/libft/ft_strjoin.c
+libft.h
+/nfs/2016/i/ichubare/Lem_in/libft/libft.h
+
+/nfs/2016/i/ichubare/Lem_in/libft/ft_strlen.c
 string.h
 -
 
-C:/Users/suroc1/here/libft/ft_strncat.c
+/nfs/2016/i/ichubare/Lem_in/libft/ft_strncat.c
 libft.h
-C:/Users/suroc1/here/libft/libft.h
+/nfs/2016/i/ichubare/Lem_in/libft/libft.h
 
-C:/Users/suroc1/here/libft/ft_strncpy.c
+/nfs/2016/i/ichubare/Lem_in/libft/ft_strncpy.c
 string.h
 -
 
-C:/Users/suroc1/here/libft/ft_strnequ.c
+/nfs/2016/i/ichubare/Lem_in/libft/ft_strnequ.c
 libft.h
-C:/Users/suroc1/here/libft/libft.h
+/nfs/2016/i/ichubare/Lem_in/libft/libft.h
 
-C:/Users/suroc1/here/libft/ft_strnew.c
+/nfs/2016/i/ichubare/Lem_in/libft/ft_strnew.c
 libft.h
-C:/Users/suroc1/here/libft/libft.h
+/nfs/2016/i/ichubare/Lem_in/libft/libft.h
 
-C:/Users/suroc1/here/libft/ft_strsplit.c
+/nfs/2016/i/ichubare/Lem_in/libft/ft_strsplit.c
 libft.h
-C:/Users/suroc1/here/libft/libft.h
+/nfs/2016/i/ichubare/Lem_in/libft/libft.h
 
-C:/Users/suroc1/here/libft/get_next_line.c
+/nfs/2016/i/ichubare/Lem_in/libft/get_next_line.c
 get_next_line.h
-C:/Users/suroc1/here/libft/get_next_line.h
+/nfs/2016/i/ichubare/Lem_in/libft/get_next_line.h
 
-C:/Users/suroc1/here/libft/get_next_line.h
+/nfs/2016/i/ichubare/Lem_in/libft/get_next_line.h
 libft.h
-C:/Users/suroc1/here/libft/libft.h
+/nfs/2016/i/ichubare/Lem_in/libft/libft.h
 
-C:/Users/suroc1/here/libft/libft.h
+/nfs/2016/i/ichubare/Lem_in/libft/libft.h
 unistd.h
 -
 string.h

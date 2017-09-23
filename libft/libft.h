@@ -77,7 +77,7 @@ int					ft_strnequ(char const *s1, char const *s2, size_t n);
 void				*ft_memalloc(size_t size);
 void				ft_memdel(void **ap);
 char				*ft_strsub(char const *s, unsigned int start, size_t len);
-char				*ft_strjoin(char const *s1, char const *s2);
+char				*ft_strjoin(char *s1, char *s2);
 char				*ft_strtrim(char const *s);
 void				ft_putstr(char const *s);
 void				ft_putendl(char const *s);
