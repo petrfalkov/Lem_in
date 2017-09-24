@@ -106,6 +106,9 @@
 		<Unit filename="/nfs/2016/i/ichubare/Lem_in/libft/ft_putchar.c">
 			<Option target="LEM_IN"/>
 		</Unit>
+		<Unit filename="/nfs/2016/i/ichubare/Lem_in/libft/ft_putnbr.c">
+			<Option target="LEM_IN"/>
+		</Unit>
 		<Unit filename="/nfs/2016/i/ichubare/Lem_in/libft/ft_putstr.c">
 			<Option target="LEM_IN"/>
 		</Unit>

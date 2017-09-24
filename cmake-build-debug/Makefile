@@ -312,6 +312,33 @@ libft/ft_putchar.c.s:
 	$(MAKE) -f CMakeFiles/LEM_IN.dir/build.make CMakeFiles/LEM_IN.dir/libft/ft_putchar.c.s
 .PHONY : libft/ft_putchar.c.s
 
+libft/ft_putnbr.o: libft/ft_putnbr.c.o
+
+.PHONY : libft/ft_putnbr.o
+
+# target to build an object file
+libft/ft_putnbr.c.o:
+	$(MAKE) -f CMakeFiles/LEM_IN.dir/build.make CMakeFiles/LEM_IN.dir/libft/ft_putnbr.c.o
+.PHONY : libft/ft_putnbr.c.o
+
+libft/ft_putnbr.i: libft/ft_putnbr.c.i
+
+.PHONY : libft/ft_putnbr.i
+
+# target to preprocess a source file
+libft/ft_putnbr.c.i:
+	$(MAKE) -f CMakeFiles/LEM_IN.dir/build.make CMakeFiles/LEM_IN.dir/libft/ft_putnbr.c.i
+.PHONY : libft/ft_putnbr.c.i
+
+libft/ft_putnbr.s: libft/ft_putnbr.c.s
+
+.PHONY : libft/ft_putnbr.s
+
+# target to generate assembly for a file
+libft/ft_putnbr.c.s:
+	$(MAKE) -f CMakeFiles/LEM_IN.dir/build.make CMakeFiles/LEM_IN.dir/libft/ft_putnbr.c.s
+.PHONY : libft/ft_putnbr.c.s
+
 libft/ft_putstr.o: libft/ft_putstr.c.o
 
 .PHONY : libft/ft_putstr.o
@@ -747,6 +774,9 @@ help:
 	@echo "... libft/ft_putchar.o"
 	@echo "... libft/ft_putchar.i"
 	@echo "... libft/ft_putchar.s"
+	@echo "... libft/ft_putnbr.o"
+	@echo "... libft/ft_putnbr.i"
+	@echo "... libft/ft_putnbr.s"
 	@echo "... libft/ft_putstr.o"
 	@echo "... libft/ft_putstr.i"
 	@echo "... libft/ft_putstr.s"

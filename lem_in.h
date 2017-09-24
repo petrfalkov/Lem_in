@@ -27,12 +27,6 @@ typedef struct		s_room {
 	struct s_room	*next;
 }					t_room;
 
-typedef struct 		s_link {
-	char 			*link[2];
-	int 			used;
-	struct s_link	*next;
-}					t_link;
-
 typedef struct			s_way
 {
 	int					*way;
@@ -53,9 +47,9 @@ typedef struct		s_lem_in {
 	int				num_rooms;
 	int				num_ants;
 	int				num_ways;
-	int 			*used_rooms; //is_visited
-	int 			*path; //way
-	int 			*checked; //visited
+	int 			*used_rooms;
+	int 			*path;
+	int 			*checked;
 	int 			*finished_ants;
 	int 			found_start;
 	int 			found_end;
@@ -64,5 +58,17 @@ typedef struct		s_lem_in {
 }					t_lem_in;
 
 void				depth_first_search(t_lem_in *lem_in);
+void				free_struct(t_lem_in *lem_in);
+void				push_ants(t_lem_in *lem_in);
+void				clear_ways(t_lem_in *lem_in);
+void				sort_ways(t_lem_in *lem_in);
+void				fill_graph(t_lem_in *lem_in);
+void				error_message(char *str);
+t_room				*get_room_by_id(t_room *rooms, int id);
+void				del_last(t_lem_in *lem_in, int *queue, int flag);
+void				new_way(t_lem_in *lem_in);
+int					last_checked(t_lem_in *lem_in);
+void				init_path_checked_used(t_lem_in *lem_in);
+
 
 #endif

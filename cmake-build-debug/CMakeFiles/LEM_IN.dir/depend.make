@@ -21,6 +21,9 @@ CMakeFiles/LEM_IN.dir/libft/ft_memdel.c.o: ../libft/libft.h
 CMakeFiles/LEM_IN.dir/libft/ft_putchar.c.o: ../libft/ft_putchar.c
 CMakeFiles/LEM_IN.dir/libft/ft_putchar.c.o: ../libft/libft.h
 
+CMakeFiles/LEM_IN.dir/libft/ft_putnbr.c.o: ../libft/ft_putnbr.c
+CMakeFiles/LEM_IN.dir/libft/ft_putnbr.c.o: ../libft/libft.h
+
 CMakeFiles/LEM_IN.dir/libft/ft_putstr.c.o: ../libft/ft_putstr.c
 CMakeFiles/LEM_IN.dir/libft/ft_putstr.c.o: ../libft/libft.h
 

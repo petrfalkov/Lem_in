@@ -21,6 +21,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/LEM_IN.dir/libft/ft_strjoin.c.o"
   "CMakeFiles/LEM_IN.dir/libft/ft_strcmp.c.o"
   "CMakeFiles/LEM_IN.dir/libft/ft_strcat.c.o"
+  "CMakeFiles/LEM_IN.dir/libft/ft_putnbr.c.o"
   "LEM_IN.pdb"
   "LEM_IN"
 )
