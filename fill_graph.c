@@ -92,9 +92,9 @@ void		depth_first_search(t_lem_in *lem_in)
 void		fill_graph(t_lem_in *lem_in)
 {
 	if (!(lem_in->found_link))
-		error_message("didnt found link");
+		error_message();
 	init_path_checked_used(lem_in);
 	depth_first_search(lem_in);
 	if (lem_in->ways == NULL)
-		error_message("zero ways found");
+		error_message();
 }
