@@ -59,23 +59,6 @@ int		is_room(char *str, t_lem_in *lem_in)
 }
 
 /*
-** flag [0 = link| 1 = room]
-*/
-
-void	free_temp(t_lem_in *lem_in, int flag)
-{
-	int		i;
-
-	i = 0;
-	if (flag == 0)
-		while (lem_in->temp_link[i])
-			free(lem_in->temp_link[i++]);
-	else
-		while (lem_in->temp_room[i])
-			free(lem_in->temp_room[i++]);
-}
-
-/*
 ** just_room[0 = yes|1 = start|2 = end]
 */
 

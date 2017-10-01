@@ -6,7 +6,7 @@
 /*   By: mhlukhov <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/21 14:27:30 by mhlukhov          #+#    #+#             */
-/*   Updated: 2017/02/23 15:14:40 by ichubare         ###   ########.fr       */
+/*   Updated: 2017/10/01 17:23:45 by ichubare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ char				*ft_strncat(char *restrict dst, const char *restrict src,
 							size_t n);
 size_t				ft_strlcat(char *restrict dst, const char *restrict src,
 							size_t siz);
-int					ft_strchr(const char *s, int c);
+char				*ft_strchr(const char *s, int c);
 char				*ft_strrchr(const char *s, int c);
 char				*ft_strstr(const char *big, const char *little);
 char				*ft_strnstr(const char *big, const char *little,

@@ -173,7 +173,7 @@ void				create_links_matrix(t_lem_in *lem_in);
 int					is_end(char *str, t_lem_in *lem_in);
 int					is_start(char *str, t_lem_in *lem_in);
 void				add_room(t_lem_in *lem_in, int just_room);
-void				free_temp(t_lem_in *lem_in, int flag);
+void				free_temp(char **temp_rl);
 int					is_room(char *str, t_lem_in *lem_in);
 int					char_count(char *string, int character);
 int					already_exists(char *new_room, t_lem_in *lem_in);
@@ -181,5 +181,6 @@ int					is_alnum(char *str);
 int					is_all_digit(char *str);
 void				num_ants(t_lem_in *lem_in);
 int					is_comment(char *str);
+void				join_fn(t_lem_in *lem_in, char *str);
 
 #endif

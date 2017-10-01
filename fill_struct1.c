@@ -76,4 +76,5 @@ void		swap_rooms(t_room *current, t_room *swapable)
 	swapable->name = temp->name;
 	swapable->coord_x = temp->coord_x;
 	swapable->coord_y = temp->coord_y;
+	free(temp);
 }

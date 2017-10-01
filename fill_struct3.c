@@ -36,8 +36,7 @@ void	num_ants(t_lem_in *lem_in)
 	num_ants = ft_atoi(str);
 	if (num_ants <= 0)
 		error_message();
-	lem_in->output = ft_strjoin(lem_in->output, str);
-	lem_in->output = ft_strjoin(lem_in->output, "\n");
+	join_fn(lem_in, str);
 	free(str);
 	lem_in->num_ants = num_ants;
 }

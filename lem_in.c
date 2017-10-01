@@ -6,11 +6,27 @@
 /*   By: ichubare <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/08/08 13:42:13 by ichubare          #+#    #+#             */
-/*   Updated: 2017/08/08 13:42:16 by ichubare         ###   ########.fr       */
+/*   Updated: 2017/10/01 17:53:44 by ichubare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lem_in.h"
+
+void	join_fn(t_lem_in *lem_in, char *str)
+{
+	char	*res;
+	char	*temp;
+	int		sum;
+
+	sum = (int)(2 + ft_strlen(lem_in->output) + ft_strlen(str));
+	temp = lem_in->output;
+	res = (char *)malloc(sum * sizeof(char));
+	ft_strcpy(res, lem_in->output);
+	ft_strcat(res, str);
+	ft_strcat(res, "\n");
+	free(temp);
+	lem_in->output = res;
+}
 
 void	error_message(void)
 {
@@ -39,7 +55,7 @@ void	init_struct(t_lem_in **lem_in)
 	(*lem_in)->temp_link = NULL;
 }
 
-int		main(int argc, char **argv)
+int		main(void)
 {
 	t_lem_in	*lem_in;
 

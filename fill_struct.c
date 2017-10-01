@@ -71,6 +71,7 @@ void		add_link(t_lem_in *lem_in)
 		create_links_matrix(lem_in);
 	first_id = find_id(lem_in, 0);
 	second_id = find_id(lem_in, 1);
+	free(lem_in->temp_link);
 	if (first_id == -1 || second_id == -1)
 		error_message();
 	lem_in->links[first_id][second_id] = 1;
@@ -84,7 +85,7 @@ void		fill_struct(t_lem_in *lem_in)
 	num_ants(lem_in);
 	while (get_next_line(0, &str))
 	{
-		lem_in->output = ft_strjoin(lem_in->output, ft_strjoin(str, "\n"));
+		join_fn(lem_in, str);
 		if (is_comment(str))
 			free(str);
 		else if (!lem_in->found_link && is_room(str, lem_in))

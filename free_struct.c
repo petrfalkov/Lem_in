@@ -24,7 +24,6 @@ void			free_lem_in(t_lem_in *lem_in)
 	}
 	free(lem_in->links);
 	free(lem_in->temp_room);
-	free(lem_in->temp_link);
 	free(lem_in->used_rooms);
 	free(lem_in->checked);
 	free(lem_in->output);
